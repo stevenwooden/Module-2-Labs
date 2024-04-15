@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="/">Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <form method="POST" action="http://127.0.0.1:5500/form">
+      <div id="fname">
+      <label type="fname">First Name:</label><br>
+      <input type="fname" placeholder="ex. Steven"><br>
+      </div>
+      <div id="lname">
+      <label type="lname">Last name:</label><br>
+      <input type="lname" placeholder="ex. Wooden">
+      </div>
+      <p>Select your favorite coding language.</p>
+      <div class="fav_language">
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="CSS" name="fav_language" value="CSS">
+      <label for="CSS">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label><br>
+      </div>
+      <p>Which vehicle do you own?</p>
+      <div>
+      <input type="checkbox" id="ford"  name="car" value="Ford">
+      <label for="ford">Ford</label>
+      <input type="checkbox" id="chevy" name="car" value="Chevrolet">
+      <label for="chevy">Chevrolet</label> 
+      <input type="checkbox" id="nissan" name="car" value="Nissan">
+      <label for="nissan">Nissan</label>
+      </div>
+      <div>
+      <label for="cars">Choose a car:</label>
+      <select name="cars" id="choose_own">
+        <option value="Ford">Ford</option>
+        <option value="Chevrolet">Chevrolet</option>
+        <option value="Nissan">Nissan</option>
+      </select>
+      </div>
+      <button type="submit">Submit Form</button>
+    </form>
+  </main>
+
+  <footer>Copyright &copy; 2024</footer>
+</body>
+
+</html>
