@@ -1,24 +1,112 @@
 /* I. Selectors */
 /* Put styles for questions 1.1, 1.2, 1.3 and 1.4 here */
+article {
+    margin: 25px 0;
+    padding: 25px;
+    border:2px solid black ;
+    }
+.style-me1 {
+    color: blue;
+}
+#style-me2 {
+    color: blue;
+}
+#style-me2.style-me1{
+    color: purple;
+}
 
 /* Put styles for questions 2.1 and 2.2 here */
-
+.my-descendants-are-styled p{
+    background-color: red;
+}
+.my-children-are-styled > p{
+    background-color: lightgreen;
+}
 
 /* II. Box model and common properties */
 /* Put styles for questions 1-8 here */
-
+.box {
+    background-color: green;
+    margin: 4px 2px 1px;
+    padding:8em 4em 2%; 
+    width: 250px;
+    height:10rem !important;
+    border-style: double;
+    border-color: blue 10px thick solid;
+    box-sizing: content-box;
+    overflow:scroll;
+    outline-style: dotted 10px;
+    border-radius: 50%;
+    background-image: url(assets/images/img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 /* III. Positioning */
 /* Put styles for questions 1-3 here */
+.position-absolute {
+    position: absolute; 
+    top: 0%;
+    background-color: aquamarine;
+    /* left: 20% */
+    right: 20%
 
+}
+.position-relative {
+    position: relative;
+    background-color: orange;
+}
+.position-sticky{
+    position: sticky;
+    background-color: lightblue;
+    top: 50%;
+}
 
 /* IV. Styling text */
 /* Put styles for questions 1-10 here */
-
+.text-style{
+    color: green;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight:regular 400;
+    font-family: "Jersey 10", sans-serif;  
+    text-align: center;
+    letter-spacing: 20%;
+    word-spacing: 20%;
+    text-transform: uppercase;
+    text-decoration: underline
+}
 
 /* V. Styling links */
 /* Put styles for questions 1-3 here */
-
-
+/* a{
+    color:yellow;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: double;
+} */
+a:link{
+    color: lightcoral;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:hover{
+    color: lightgreen;
+    text-decoration: double;
+}
+a:active{
+    color: lightcoral;
+    text-decoration: line-through;
+}
+a:focus{
+    color: lightcoral;
+    text-decoration: underline;
+}
+a:visited{
+    color: blueviolet;
+    font-style: italic;
+}
 /* VI. calc() */
 /* Put styles for questions 1-3 here */
