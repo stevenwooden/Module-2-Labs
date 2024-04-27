@@ -7,19 +7,28 @@
         <meta name="description" content="This is a resume for Steven Wooden">
         <meta name="keywords" content="resume, Steven, Wooden, HTML, CSS, experience, job">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="resumestyle.css">
     </head>
     <body>
-        <aside>
-            <h1>Steven Wooden - Resume</h1>
-            <img src="images/resumePic.png" alt="resume image">
-            <p>Graphic Design and Web Developer</p>
-            <h2>Personal info</h2> 
+        <main class="mainInfo">
+        <aside class="side resume">
+            <section class="intro">
+            <h1>Steven Wooden</h1>
+            <img class="resumePic" src="images/resumePic.png" alt="resume image">
+            <p class="title">Graphic Design and Web Developer</p>
+            </section>
+            <section class="personal">
+            <h2 style="background-color:darkgreen;padding: 15px 0px;">Personal info</h2> 
             <h3>Phone</h3>
             <p>(571)264-1713</p>
             <h3>Email</h3>
             <p>stevjwooden@yahoo.com</p>
-            <h2>Skills</h2>
+            </section>
+            <section class="skills">
+            <h2 style="background-color: darkgreen; padding: 15px 0px;">Skills</h2>
             <ul>
                 <li>Web Development</li>
                     <ul>
@@ -36,16 +45,17 @@
                         <li>Typography</li>
                     </ul>
             </ul>
+            </section>
         </aside>
-        <main>
-            <section>
+            <div class="peeInfo resume">
+            <section class="profile">
             <h2>Profile</h2>
             <p>A detail and results-oriented graduate with a degree in Graphic Design and a specialization in Web Design.
             Adept at using design software, including Adobe Creative Cloud, to create visual solutions for brand identities, 
             user interface and experience, website design, stationaries and more. Adaptable, motivated, and a willingness to 
             learn a dynamic entry-level graphic and web design role.</p>
             </section>
-            <section>
+            <section class="employment">
             <h2>Employment History</h2>
             <p>Field Technician I, Northern Virginia Electric Cooperative<br>February 2016 to Present</p>
             <ul>
@@ -68,16 +78,18 @@
                 <li>Oversaw store organization and cleanliness</li>
             </ul>
             </section>
-            <section>
+            <section class="education">
                 <h2>Education</h2>
                 <p>Bachelor of Arts (B.A) Graphic Design and Media Arts w/ Specialization in Web Design<br>
                     Southern New Hampshire University, Manchester, NH January 2020- November 2023</p>
                 <p>Advanced Diploma<br>
                     Freedom High School, Woodbridge, VA June 2008</p>
             </section>
-            <footer>
-                <p>Created by Steven Wooden, 2024</p>   
-            </footer>
+            </div>
         </main>
+    
+        <footer>
+            <p style="font-size: 15px;">Created by Steven Wooden 2024</p>
+        </footer>
     </body>
 </html>
