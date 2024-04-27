@@ -1,0 +1,80 @@
+aside {
+    background-color: green;
+    flex-direction: column;
+    float: left;
+    width: 33.33%;
+    color: white;
+    
+
+}
+.resumePic {
+    width: 40em;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h1 {
+    font-size: 40px;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+}
+.resume {
+    display: flex;;
+    /* margin: 2%; */
+    flex-direction: column;
+}
+.peeinfo {
+    flex-direction: column ;
+    padding-top: 15%;
+
+}
+footer {
+    padding: 1%;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    font-family: "Comfortaa", sans-serif;
+}
+h3 {
+    font-size: 25px;
+    font-family: "Comfortaa", sans-serif;
+}
+p {
+    font-size: 20px;
+    font-family: "Comfortaa", sans-serif;
+}
+.title {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+li { 
+    font-family: "Comfortaa", sans-serif;
+    font-size: 17.5px;
+    padding: 1.5%;
+}
+
+section {
+    margin: 2%;
+
+}
+.profile {
+    border-bottom: .5px solid black;
+    margin-top: 5%;
+    padding: 2%;
+}
+.employment {
+    border-bottom: .5px solid black;
+    padding: 2%;
+}
+@media screen and (max-width: 600px){
+    aside{float: none; width: 100%;}
+    .align{text-align: center;}
+    .label {font-size: 25px;}
+    h3 {font-size: 22.5px;}
+    /* .pinfo{font-size: 17.5px;} */
+
+}
